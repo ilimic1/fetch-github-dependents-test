@@ -1,0 +1,17 @@
+{
+  "name": "@ilimic/fetch-github-dependents-test",
+  "scripts": {
+    "test": "node --loader ts-node/esm index.ts"
+  },
+  "author": "Ivo Limić <ilimic1@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@ilimic/fetch-github-dependents": "file:.yalc/@ilimic/fetch-github-dependents"
+  }
+}

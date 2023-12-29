@@ -1,0 +1,10 @@
+{
+  "name": "@ilimic/fetch-github-dependents-test",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivo Limić <ilimic1@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "private": true
+}
