@@ -2,7 +2,7 @@ import { getRepos } from "@ilimic/fetch-github-dependents";
 
 (async () => {
   const repo = "https://github.com/cheeriojs/cheerio";
-  const reposToScan = 150;
+  const reposToScan = 80;
   const sort = "desc";
 
   console.log(`Fetching dependents for ${repo} ...`);

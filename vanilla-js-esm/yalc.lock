@@ -1,9 +1,0 @@
-{
-  "version": "v1",
-  "packages": {
-    "@ilimic/fetch-github-dependents": {
-      "signature": "a803a3da59d8aa2d6c7d050783884e5c",
-      "file": true
-    }
-  }
-}

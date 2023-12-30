@@ -8,6 +8,6 @@
   "type": "module",
   "private": true,
   "dependencies": {
-    "@ilimic/fetch-github-dependents": "file:.yalc/@ilimic/fetch-github-dependents"
+    "@ilimic/fetch-github-dependents": "^1.0.0-alpha.12"
   }
 }

@@ -1,7 +1,10 @@
 {
   "name": "@ilimic/fetch-github-dependents-test",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:ts-node": "cd ts-node && npm run test",
+    "test:vanilla-js-cjs": "cd vanilla-js-cjs && npm run test",
+    "test:vanilla-js-esm": "cd vanilla-js-esm && npm run test",
+    "test": "npm run test:ts-node && npm run test:vanilla-js-cjs && npm run test:vanilla-js-esm"
   },
   "author": "Ivo Limić <ilimic1@gmail.com>",
   "license": "MIT",
